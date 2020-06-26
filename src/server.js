@@ -19,4 +19,4 @@ setInterval(async () => {
     const response = await fetch('http://49.12.82.83:25575/');
     console.log(`Status - ${response.status}`);
     status = response.status;
-}, 60e3);
+}, 30e4);
