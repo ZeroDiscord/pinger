@@ -16,7 +16,7 @@ const port = process.env.PORT || 4200;
 app.listen(port);
 console.log(port);
 setInterval(async () => {
-    const response = await fetch('http://49.12.82.83:25575/');
+    const response = await fetch('https://zeromusicdevelopment.glitch.me/');
     console.log(`Status - ${response.status}`);
     status = response.status;
 }, 30e4);
